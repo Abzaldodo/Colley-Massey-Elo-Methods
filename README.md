@@ -2,8 +2,8 @@
 ## Analysis of Mathematical Ranking Methods in Mathematical Olympiads
 
 ### **📄 Abstract**  
-This project investigates the fairness, stability, and reliability of several mathematical ranking algorithms — including the **Colley method**, **Massey method**, and **Elo rating system** — when applied to real performance data from mathematical Olympiads.  
-By implementing these ranking systems in Python and comparing their outputs, this study aims to understand how different mathematical assumptions influence the final ranking of participants and problems.  
+This project is code I have implemented during my research "Which Problems Are the Hardest? Who is the Best? Analysis of Mathematical Ranking Methods in Mathematical Olympiads". I have uploaded code only for the year 2024; however, I have analogically analyzed years 2022 and 2023 in my research paper. 
+
 The project demonstrates practical skills in data analysis, linear algebra, numerical methods, and algorithmic reasoning.
 
 ---
@@ -90,30 +90,16 @@ Using mathematical Olympiad data, this project evaluates how three established r
 
 ## 📝 **5. Results & Observations**
 
-Although detailed results are in the output files, the general findings include:
-
-- **Colley method** produces the most **stable** rankings with minimal sensitivity to score differences.  
-- **Massey method** reacts strongly to large score gaps, which can push outlier performances high in ranking.  
-- **Elo system** depends heavily on match sequence and allows dramatic rating movements in early rounds.  
-
-This demonstrates that **“best performer” is not absolute** — it depends on the mathematical framework used.
+- Using 22024 Olympiad data, Colley, Massey, and Elo were adapted to rank both problems and students
+- Colley and Massey correlate with PointSum and reveal which problems are good for training, hard to fully solve, or hard to score on
+- Elo, when applied to a scrambled dataset, can rank problems and may be more accurate than Colley and Massey for problems with equal PointSum
+- Colley and Massey produce student rankings that align closely with original Olympiad standings
+- Future directions include adding more years, analyzing chaotic Elo behavior, and treating problems as players across multiple years for a more stable Elo-based ranking system
 
 
 ---
 
-## 🚀 **6. Future Extensions**
-
-Possible next steps include:
-
-- Adding **PageRank**-style random-walk ranking  
-- Applying **Bayesian ratings** (e.g., TrueSkill)  
-- Visualizing ranking transitions using plots  
-- Running analysis across multiple years of Olympiad data  
-- Creating an interactive dashboard to explore ranking methods  
-
----
-
-## 📫 **7. Contact**
+## 📫 **6. Contact**
 
 Author: **Abzal Tangsykbay**  
 For academic or research inquiries, feel free to reach out through GitHub.
