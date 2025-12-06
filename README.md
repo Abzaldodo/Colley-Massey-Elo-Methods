@@ -47,23 +47,23 @@ Using mathematical Olympiad data, this project evaluates how three established r
 ---
 
 ## 📁 **3. Repository Structure**
- ─ All olympiads 2024.csv # Main dataset of Olympiad results
- ─ data formatting.ipynb # Data cleaning & preparation
- ─ colley-2024.ipynb # Colley ranking implementation
- ─ massey-2024.ipynb # Massey ranking implementation
- ─ massey-2024-Student research.ipynb # Analysis of specifically student performance
- ─ elo-2024.ipynb # Elo ranking implementation
- ─ eloRankingTuningEndSeason-2.ipynb # Tuning constant K for best Elo performance
+- All olympiads 2024.csv # Main dataset of Olympiad results
+- data formatting.ipynb # Data cleaning & preparation
+- colley-2024.ipynb # Colley ranking implementation
+- massey-2024.ipynb # Massey ranking implementation
+- massey-2024-Student research.ipynb # Analysis of specifically student performance
+- elo-2024.ipynb # Elo ranking implementation
+    eloRankingTuningEndSeason-2.ipynb # Tuning constant K for best Elo performance
 
- ─ Problem ranking COLLEY # Output: Colley rankings for Math Olympiad Problems
- ─ Problem ranking Massey # Output: Massey rankings for Math Olympiad Problems
- ─ Problem ranking ELO # Output: Elo rankings for Math Olympiad Problems
+- Problem ranking COLLEY # Output: Colley rankings for Math Olympiad Problems
+- Problem ranking Massey # Output: Massey rankings for Math Olympiad Problems
+- Problem ranking ELO # Output: Elo rankings for Math Olympiad Problems
 
- ─ 24games.txt # All Student vs Problem games
- ─ 24teams.txt # Indexes of all students and problems
- ─ 24points.txt # Points each contestant earned from each problem
+- 24games.txt # All Student vs Problem games
+- 24teams.txt # Indexes of all students and problems
+- 24points.txt # Points each contestant earned from each problem
 
- ─ README.md # Project documentation
+- README.md # Project documentation
 
 ---
 
